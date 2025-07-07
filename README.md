@@ -1,101 +1,113 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/m3FKhDRs)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19872630&assignment_repo_type=AssignmentRepo)
-# 🌐 Personal Portfolio Project Assignment
+# Shalom Obongo - Portfolio
 
-Welcome to your **Personal Portfolio Project**! This assignment is designed to help you practice core GitHub and project management skills, including milestones, issues, project boards, branching, commit conventions, pull requests, and resolving merge conflicts.
+A modern, responsive portfolio website showcasing my skills and projects as a Full Stack Developer and Technology Consultant.
+
+## 🚀 Features
+
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Interactive Elements**: Typing animation, hover effects, and smooth scrolling
+- **Project Showcase**: Detailed presentation of featured projects
+- **Contact Form**: Functional contact form for inquiries
+- **Performance Optimized**: Fast loading and smooth interactions
+
+## 🛠️ Technologies Used
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Custom CSS with CSS Grid and Flexbox
+- **Icons**: Font Awesome
+- **Deployment**: GitHub Pages
+
+## � Project Structure
+
+```
+portfolio/
+├── index.html          # Main HTML file
+├── styles/
+│   └── main.css        # Main stylesheet
+├── scripts/
+│   └── main.js         # JavaScript functionality
+├── assets/
+│   └── images/         # Image assets
+└── README.md           # Project documentation
+```
+
+## 🌟 Sections
+
+1. **Hero/Landing**: Professional introduction with animated typing effect
+2. **About**: Personal background and key statistics
+3. **Experience**: Professional timeline with detailed roles
+4. **Projects**: Featured projects with technologies and links
+5. **Skills**: Technical skills organized by category
+6. **Contact**: Contact form and information
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ShalomObongo/portfolio.git
+   ```
+
+2. Open `index.html` in your browser or serve with a local server
+
+3. For development, you can use any local server:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js (if you have live-server installed)
+   live-server
+   ```
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px
+- **Mobile**: Below 768px
+
+## 🔧 Customization
+
+To customize the portfolio for your own use:
+
+1. Update personal information in `scripts/main.js` (portfolioData object)
+2. Replace profile image in `assets/images/`
+3. Modify color scheme in CSS custom properties (`:root` in `styles/main.css`)
+4. Update contact information and social links
+
+## � Performance
+
+- Optimized images and assets
+- Minimal external dependencies
+- Efficient CSS and JavaScript
+- Smooth animations with CSS transitions
 
 ---
 
-## 📌 Project Management Guidelines
+## � GitHub Workflow Assignment
 
-### ✅ Milestones
-Define major phases or deliverables of your portfolio (e.g., Landing Page, Team Profiles, Admin Panel).
+This portfolio was built following GitHub workflow best practices including:
 
-### ✅ Issues
-Break each milestone into manageable tasks. Link these issues to their related milestone for better tracking.
+- ✅ **Milestones**: Organized development phases
+- ✅ **Issues**: Task breakdown and tracking
+- ✅ **Project Board**: Visual task management
+- ✅ **Feature Branches**: Proper branching strategy
+- ✅ **Pull Requests**: Code review workflow
+- ✅ **Commit Conventions**: Structured commit messages
+- ✅ **Merge Conflicts**: Demonstrated resolution process
 
-### ✅ Project Board
-Create a GitHub project board with columns like:
-- `To Do`
-- `In Progress`
-- `Done`
+## 📄 Assignment Documentation
 
-Assign tasks and pull requests to the appropriate columns.
+See `Assignment.md` for detailed documentation of the GitHub workflow process and learning outcomes.
 
----
+## 📞 Contact
 
-## 🔧 Git Workflow
-
-### 🔀 Branching
-Use feature branches for each issue. Adopt a consistent naming format such as:
-
-```
-feature/<issue-number>-short-description
-```
-
-### 💬 Commits
-Use structured, meaningful commit messages:
-
-```
-<type>(<optional scope>): <short description>
-
-<body>
-
-<footer>
-```
-
-**Commit Types: `(use at least 6 of these)`**
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Formatting, white space, etc.
-- `refactor`: Code restructure (no feature or bug)
-- `perf`: Performance improvement
-- `test`: Test-related updates
-- `chore`: Non-code updates (e.g., config)
-- `build`: Build system or dependency changes
-- `ci`: Continuous integration changes
-
-**Example:**
-```
-feat(portfolio): add responsive navigation bar
-
-Added a mobile-first responsive nav using Flexbox.
-
-Closes #45
-```
+- **Email**: shalom.obongo@strathmore.edu
+- **GitHub**: [@ShalomObongo](https://github.com/ShalomObongo)
+- **LinkedIn**: [Shalom Obongo](https://www.linkedin.com/in/shalom-obongo)
 
 ---
 
-## 🔄 Pull Requests & Merge Conflicts
-
-- Open a PR for each feature branch.
-- Link the PR to its corresponding issue.
-- Request reviews before merging.
-- Document any merge conflict resolution in the PR or commit message.
-
----
-
-## 🚀 Deployment & Documentation
-
-- Keep the `main` branch always deployable.
-- Deploy using GitHub Pages (mandatory) and any suitable platform (optional).
-- Complete the `Assignment.md` file in this repository by addressing all listed requirements. This document will be used for evaluation.
----
-
-## 📥 Submission Checklist
-
-Before submitting your project, ensure the following:
-
-- [ ] Defined milestones for key features
-- [ ] Created and linked issues to milestones
-- [ ] Organized a GitHub project board (To Do / In Progress / Done)
-- [ ] Used structured commit messages
-- [ ] Created separate feature branches for tasks
-- [ ] Opened and merged PRs with meaningful descriptions
-- [ ] Demonstrated conflict resolution (Simulate atleast one)
-- [ ] Deployed the portfolio online
-- [ ] Completed and updated the `Assignment.md` file which will be marked and graded
+Built with ❤️ by Shalom Obongo
 
 
 
