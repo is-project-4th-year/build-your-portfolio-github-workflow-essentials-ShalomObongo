@@ -1,6 +1,14 @@
 # Shalom Obongo - Portfolio
 
-A modern, responsive portfolio website showcasing my skills and projects as a Full Stack Developer and Technology Consultant.
+A modern, responsive portfolio website showcasi## 🚀 Deployment
+
+This portfolio is deployed using **GitHub Pages** configured manually in repository settings.
+
+- **Live URL**: https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-ShalomObongo/
+- **Deployment**: Automatic deployment from main branch
+- **Configuration**: Manual setup via repository Settings → Pages
+
+No additional CI/CD workflows required as GitHub Pages handles deployment automatically.
 
 ## 🚀 Features
 
