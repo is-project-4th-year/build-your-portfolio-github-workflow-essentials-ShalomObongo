@@ -53,7 +53,7 @@ portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ShalomObongo/portfolio.git
+   git clone https://github.com/ShalomObongo/build-your-portfolio-github-workflow-essentials-ShalomObongo.git
    ```
 
 2. Open `index.html` in your browser or serve with a local server
@@ -115,7 +115,7 @@ See `Assignment.md` for detailed documentation of the GitHub workflow process an
 
 ---
 
-Built with ❤️ by Shalom Obongo
+Built by Shalom Obongo
 
 
 
